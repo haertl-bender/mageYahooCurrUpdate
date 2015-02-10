@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+	<!-- Shb-is Yahoo Finance Integration-->
+        <currency>
+            <import>
+                <services>
+                    <yahoofinance>
+                        <name>Yahoo Finance</name>
+                        <model>Shb-is_Yahoocurrencyupdate_Model_Currency_Import_Yahoofinance</model>
+                    </yahoofinance>
+                </services>
+            </import>
+        </currency>
+        <!-- EOF Shb-is Yahoo Finance Integration-->
+    </global>
+</config>
